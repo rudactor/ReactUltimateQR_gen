@@ -9,9 +9,9 @@ export function TopMenu() {
                         {/* logo + name */}
                         <div className="flex items-center gap-4">
                             <img src={reactsvg} className="h-6" alt="logo" />
-                            <span className="font-normal tracking-wider text-2xl text-gray-50">
+                            <button onClick={() => navigate("/")} className="transition-all hover:bg-neutral-800 hover:px-4 hover:py-2 duration-300 ease-[cubic-bezier(.4,0,.2,1)] font-normal tracking-wider text-2xl text-gray-50 hover:rounded-xl">
                                 Ultimate QR Generator
-                            </span>
+                            </button>
                             <span className="font-light text-gray-200 text-base mx-5">
                                 v0.0.1
                             </span>
